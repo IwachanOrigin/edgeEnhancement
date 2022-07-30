@@ -36,4 +36,4 @@ This software is released under the MIT License, see LICENSE.
 ## References
 [C言語で学ぶ実践CG・映像合成](https://www.ohmsha.co.jp/book/9784274500169/)  
 [コンピュータ画像処理(改訂2版)](https://www.ohmsha.co.jp/book/9784274228193/)  
-
+[ベッドの下で元カノの帰りを待っていたストーカー化する元カレの写真素材](https://www.pakutaso.com/20160432099post-7538.html)
