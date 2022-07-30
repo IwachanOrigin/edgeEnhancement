@@ -32,7 +32,6 @@ QImage MainWindow::edgeEnhancement(QImage inputImg, float ratio)
     {
         for (int j = 0; j < inputImg.width(); j++)
         {
-            QColor currColor(inputImg.pixel(j, i));
             // y
             int i1 = i - 1;
             int i2 = i + 1;
@@ -42,8 +41,6 @@ QImage MainWindow::edgeEnhancement(QImage inputImg, float ratio)
             int r = 0;
             int g = 0;
             int b = 0;
-            int edgeG = 0;
-            int edgeB = 0;
             if ((i1 >= 0 && i2 <= inputImg.height() - 1)
                 && (j1 >= 0 && j2 <= inputImg.width() - 1))
             {
