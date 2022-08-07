@@ -7,6 +7,12 @@
 画像読み込み、GUIにはQtを使用しています。  
 
 ## Demo
+元画像  
+![base](https://user-images.githubusercontent.com/12496951/183280168-77b6db35-4c82-429b-8979-94df9be4807a.PNG)  
+
+比率を2.0とし、輪郭を強調させた画像  
+![edgeEnhancement](https://user-images.githubusercontent.com/12496951/183280169-f5bd9563-8bd4-4520-90f8-5191abe9511f.PNG)  
+
 
 ## Dependency
 - MSVC 15+  
