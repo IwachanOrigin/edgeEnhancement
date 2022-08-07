@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui.setupUi(this);
     ui.graphicsView->setScene(&scene);
     QImage inputImg(":/MainWindow/test.jpg");
-    QImage rtnImg = this->edgeEnhancement(inputImg, 0.5f);
+    QImage rtnImg = this->edgeEnhancement(inputImg, 2.0f);
     QGraphicsPixmapItem *image_item = new QGraphicsPixmapItem(QPixmap::fromImage(rtnImg));
     scene.addItem(image_item);
     ui.graphicsView->setScene(&scene);
